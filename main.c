@@ -131,6 +131,9 @@ void drawwin(int row, int col, char dir)
     glFlush();
 }
 
+
+
+
 void game(int row, int col, char player)
 {
 
@@ -186,7 +189,8 @@ void game(int row, int col, char player)
    
     changeplayer();}
     else{
- showboard();    }
+
+      showboard();  }
 
 }
 void mouseclick(int button, int state, int x, int y)
